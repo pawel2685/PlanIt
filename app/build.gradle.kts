@@ -50,7 +50,9 @@ dependencies {
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
 
     // Room
-    implementation("androidx.room:room-runtime:2.5.2") // Room runtime
+    implementation("androidx.room:room-runtime:2.5.2")
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx) // Room runtime
     kapt("androidx.room:room-compiler:2.5.2") // Annotation processor for Room
 
     // Dagger (example)
